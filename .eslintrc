@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "smashcast"
+  ],
+  "env": {
+    "node": true,
+    "mocha": true
+  }
+}
