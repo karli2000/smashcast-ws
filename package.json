@@ -9,9 +9,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "commit-wizard"
+    "commit": "commit-wizard",
+    "prepublish": "node prePublish.js"
   },
-  "author": "",
+  "author": "smashcast <dev@smashcast.tv>",
   "license": "MIT",
   "config": {
     "pre-git": {
@@ -21,7 +22,11 @@
       ]
     }
   },
+  "engines": {
+    "npm": ">=4.0.0"
+  },
   "devDependencies": {
+    "git-state": "^4.0.0",
     "smashcast-common": "^1.0.1"
   },
   "dependencies": {
