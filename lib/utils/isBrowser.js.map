@@ -1,0 +1,1 @@
+{"version":3,"sources":["utils/isBrowser.js"],"names":["isBrowser","window"],"mappings":";;;;;kBAAwBA,S;AAAT,SAASA,SAAT,GAAqB;AAChC,WAAO,OAAOC,MAAP,KAAkB,WAAzB;AACH","file":"isBrowser.js","sourcesContent":["export default function isBrowser() {\n    return typeof window !== 'undefined';\n}\n"]}

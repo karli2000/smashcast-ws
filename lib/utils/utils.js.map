@@ -1,0 +1,1 @@
+{"version":3,"sources":["utils/utils.js"],"names":["isBrowser","supportsWebSockets"],"mappings":";;;;;;;;;;;;;;;;;QAAOA,S;QACAC,kB","file":"utils.js","sourcesContent":["export isBrowser from './isBrowser';\nexport supportsWebSockets from './supportsWebSockets';\n"]}
